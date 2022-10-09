@@ -4,5 +4,5 @@
 
 <p>É um jogo sobre chefs de pizza rivais. Cobriremos um mundo de vários mapas, personagens com diálogos e cenas, todo um sistema de batalha baseado em turnos, um menu de pausa e outros elementos de RPG à medida que avançamos.
 </p>
-<p>------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p>----------------------------------------------------------------------------------------------------------------------------</p>
 <p><i>It's a game about rival pizza chefs. We'll cover a multi-map Overworld, characters with dialog and cutscenes, a whole turn-based battle system, a pause menu, and other RPG elements as we go.</i></p>
