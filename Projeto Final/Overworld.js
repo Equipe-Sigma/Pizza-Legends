@@ -42,22 +42,63 @@ class Overworld{
         step ();
     }
 
-    init() {
-        this.map = new OverworldMap(window.OverworldMaps.DemoRoom);
+    bindActionInput() {
+        new KeyPressListener("Enter", () => {
+            //Is there a person here to talk to?
+            this.map.checkForActionCutscene()
+        })
+    }
+
+    bindHeroPositionCheck () {
+        document.addEventListener("PersonWalkingComplete", e => {
+            if (e.detail.whoId === "hero") {
+                this.map.checkForFootstepCutscene()
+            }
+        })
+    }
+
+    startMap(mapConfig) {
+        this.map = new OverworldMap(mapConfig);
+        this.map.overworld = this;
         this.map.mountObjects();
+    }
+
+    init() {
+        this.startMap(window.OverworldMaps.DemoRoom);
+
+        this.bindActionInput();
+        this.bindHeroPositionCheck();
 
         this.directionInput = new DirectionInput();
         this.directionInput.init();
 
         this.startGameLoop();
 
+        if (this.isCutscenePlaying === false){
+            console.log("false")
+        } else if (this.isCutscenePlaying === true){
+            console.log("true")
+        } else {
+            console.log("Não definido")
+        }
+        /*
         this.map.startCutscene([
+            
             { who: "hero", type: "walk", direction: "down"},
             { who: "hero", type: "walk", direction: "down"},
             { who: "npcA", type: "walk", direction: "left"},
             { who: "npcA", type: "walk", direction: "left"},
-            { who: "npcA", type: "stand", direction: "up", time: 800},
-        ])
+            { who: "npcA", type: "stand", direction: "up", time: 200},
+            {type: "textMessage", text: "HEY! YOU!"},
+            {type: "textMessage", text: "You shouldn't be here!"},
+            {type: "textMessage", text: "Get out of here!"},
+            { who: "hero", type: "walk", direction: "up"},
+            { who: "hero", type: "stand", direction: "down", time: 500},
+            { who: "npcA", type: "walk", direction: "right"},
+            { who: "npcA", type: "walk", direction: "right"}
+            
+        ])*/
+        
 
         }
     }
