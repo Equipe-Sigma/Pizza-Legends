@@ -13,11 +13,12 @@ Pizza Legends é um jogo com elementos de RPG, muito semelhante aos jogos da sé
 No jogo você é um aprendiz de pizzaiolo em busca de se tornar o maior pizzaiolo de todos os tempos, porém você ainda não possui nenhuma experiência na cozinha.
 Então você precisará fazer suas primeiras pizzas, montar seu time e batalhar com outros pizzaiolos, ganhando experiência e evoluindo seu time, para assim atingir seu objetivo.
 
+## Andamento do Projeto
 
-### Reuniões do progresso do projeto:
+### Reuniões:
 <p><b>Dia 22/10/2022</b> - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens</p>
 
-### Acompanhar andamento do projeto:
+### Acompanhe o projeto:
 [Trello](https://trello.com/b/5pph1wQT/pizza-legends-tutorial)
 
 ### Tecnologias utilizadas
