@@ -20,6 +20,7 @@ Então você precisará fazer suas primeiras pizzas, montar seu time e batalhar 
   <li>
     <p><b>Dia 22/10/2022</b> - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens</p>
   </li>
+  
 </ul>
 
 ### Acompanhe o projeto:
