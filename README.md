@@ -16,7 +16,11 @@ Então você precisará fazer suas primeiras pizzas, montar seu time e batalhar 
 ## Andamento do Projeto
 
 ### Reuniões:
-<p><b>Dia 22/10/2022</b> - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens</p>
+<ul>
+  <li>
+    <p><b>Dia 22/10/2022</b> - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens</p>
+  </li>
+</ul>
 
 ### Acompanhe o projeto:
 [Trello](https://trello.com/b/5pph1wQT/pizza-legends-tutorial)
