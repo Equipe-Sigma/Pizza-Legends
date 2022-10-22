@@ -2,12 +2,28 @@
 
 <img src="https://user-images.githubusercontent.com/112625422/194766013-62fc742c-096b-499d-901e-045cfa996b78.png">
 
-<p>É um jogo sobre chefs de pizza rivais. Cobriremos um mundo de vários mapas, personagens com diálogos e cenas, todo um sistema de batalha baseado em turnos, um menu de pausa e outros elementos de RPG à medida que avançamos.
+<p>
+  Pizza Legends é um jogo aos moldes da série de Pokemon, onde você com seu rolo de massa e um punhado de farinha, precisará dar todo seu estoque de molho de tomate para se tornar o maior pizzaiolo de todos os tempos.
 </p>
-<p><hr/></p>
-<p><i>It's a game about rival pizza chefs. We'll cover a multi-map Overworld, characters with dialog and cutscenes, a whole turn-based battle system, a pause menu, and other RPG elements as we go.</i></p>
 
-### Acompanhar andamento do projeto:
+## Sobre o jogo
+
+Pizza Legends é um jogo com elementos de RPG, muito semelhante aos jogos da série Pokemon, onde terá batalhas de turnos, itens, tipos de ataques diferentes, etc. 
+
+No jogo você é um aprendiz de pizzaiolo em busca de se tornar o maior pizzaiolo de todos os tempos, porém você ainda não possui nenhuma experiência na cozinha.
+Então você precisará fazer suas primeiras pizzas, montar seu time e batalhar com outros pizzaiolos, ganhando experiência e evoluindo seu time, para assim atingir seu objetivo.
+
+## Andamento do Projeto
+
+### Reuniões:
+<ul>
+  <li>
+    <p><b>Dia 22/10/2022</b> - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens</p>
+  </li>
+  
+</ul>
+
+### Acompanhe o projeto:
 [Trello](https://trello.com/b/5pph1wQT/pizza-legends-tutorial)
 
 ### Tecnologias utilizadas
