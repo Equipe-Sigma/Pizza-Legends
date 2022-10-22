@@ -14,6 +14,8 @@ No jogo você é um aprendiz de pizzaiolo em busca de se tornar o maior pizzaiol
 Então você precisará fazer suas primeiras pizzas, montar seu time e batalhar com outros pizzaiolos, ganhando experiência e evoluindo seu time, para assim atingir seu objetivo.
 
 
+### Reuniões do progresso do projeto:
+Dia 22/10/2022 - Expansão da mecânica de cutcenes e comportamentos, adicionando caixas de textos e alguns movimentos dos personagens
 
 ### Acompanhar andamento do projeto:
 [Trello](https://trello.com/b/5pph1wQT/pizza-legends-tutorial)
