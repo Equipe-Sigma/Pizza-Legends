@@ -17,7 +17,7 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
 
 <h3>Reuniões:</h3>
 
-<h4>OBS: Optamos por fazer reuniões presenciais e online afim de obter um melhor processo de desenvolvimento.</h4>
+<h4>OBS: Optamos por fazer reuniões por meio online afim de obter um melhor andamento do projeto.</h4>
 <ol>
     <li>
     <b>Dia 06/10/2022 - Reuniões para abstração, idealização, organização e plenajemento do projeto. Ficando definido assim que iríamos utilizar HTML, CSS e JS como tecnologias, e implementaríamos tudo através de métodos, funções, objetos, divs, imagens, textos, entre outras funcionalidades dessa tríade de Front-end. </b>
