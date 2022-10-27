@@ -22,15 +22,13 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
     <li>
     <b>Dia 06/10/2022 - Reuniões para abstração, idealização, organização e plenajemento do projeto. Ficando definido assim que iríamos utilizar HTML, CSS e JS como tecnologias, e implementaríamos tudo através de métodos, funções, objetos, divs, imagens, textos, entre outras funcionalidades dessa tríade de Front-end. </b>
   </li>
-<br></br>
-    <li>
+  <br/>
+  <li>
     <b>Dia 12/10/2022 - Começo do projeto na prática(progamando), criando os elementos primordiais de um jogo, como imagens, personagens, mapas, entre outros elementos essenciais.
     </b>
       <ul>
         <li>Definição do tamanho da tela(Overworld.js e Init.js)</li>
-        <br></br>
         <li>Adicionando GameObjects</li>
-        <br></br>
         <li>Configuração do OverworldMaps</li>
       </ul>
   </li>
@@ -39,21 +37,17 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
     <b>Dia 13/10/2022 - Configurando mecanismos essenciais de um jogo, como movimentações, animações, colisões, entre outros, como câmera.</b>
       <ul>
         <li>Movimentação baseada no Grid.</li>
-        <br></br>
         <li>Animações do Personagem.</li>
-        <br></br>
         <li>Câmera</li>
-        <br></br>
         <li>Paredes e Colisões.
           <h4>OBS: O Membro Rafael Gomes fez adaptações individuais dessa parte do tutorial afim de estar de acordo com nossas ideias para o jogo.</h4>
         </li>
       </ul> 
   </li>
-        <br></br>
     <li>
     <b>Dia 20/10/2022 - Extensão de Comportamentos e Cutscenes(Vídeo 8)</b>
     </li>
-  <br></br>
+    <br/>
   <li>
    <b>Dia 22/10/2022 - Extensão de Comportamento e Cutscenes - Parte 2(Vídeo 9)</b>
   </li>
