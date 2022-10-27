@@ -283,6 +283,38 @@ window.OverworldMaps = {
         [utils.asGridCoord(10,7)] : true,
         [utils.asGridCoord(9,9)] : true,
         [utils.asGridCoord(10,9)] : true,
+      },
+      cutsceneSpaces: {
+        [utils.asGridCoord(5,10)]: [
+          {
+            events: [
+              { type: "changeMap", map: "Street" }
+            ]
+          }
+        ]
+      }
+    },
+    Street: {
+      lowerSrc: "/images/maps/StreetLower.png",
+      upperSrc: "/images/maps/StreetUpper.png",
+      gameObjects: {
+        hero: new Person({
+          isPlayerControlled: true,
+          x: utils.withGrid(5),
+          y: utils.withGrid(10),
+        })
+      },
+      walls: {
+
+      },
+      cutsceneSpaces: {
+        [utils.asGridCoord(5,9)]: [
+          {
+            events: [
+              { type: "changeMap", map: "Kitchen" }
+            ]
+          }
+        ]
       }
     },
   }
