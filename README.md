@@ -16,7 +16,6 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
 <h2>Andamento do Projeto:</h2>
 
 <h3>Reuniões:</h3>
-<<<<<<< HEAD
 
   <ol>
     <li>
@@ -70,62 +69,22 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         <li>Definição da batalha, posionamento dos personagens e HUD das pizzas, e criação da tabela de dados de cada pizza.</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 28/10/2022</b> - Ataques e Turnos e Efeitos de Status
+      </p>
+      <ul>
+        <li>Criação da mudança de turno, método de identificação de cada elemento da batalha (Usuário, ataque, alvo) e efeito dos ataques juntamente com sua correspondência na caixa de texto.</li>
+        <li>Criação de dois efeitos de status sendo eles Clumsy e Saucy, com seus respectivos efeitos e ataques que obtenção de efeitos de status.</li>
+      </ul>
+    </li>
   </ol>
 
-=======
-
-<h4>OBS: Optamos por fazer reuniões por meio online afim de obter um melhor andamento do projeto.</h4>
-<ol>
-    <li>
-    <b>Dia 06/10/2022 - Reuniões para abstração, idealização, organização e plenajemento do projeto. Ficando definido assim que iríamos utilizar HTML, CSS e JS como tecnologias, e implementaríamos tudo através de métodos, funções, objetos, divs, imagens, textos, entre outras funcionalidades dessa tríade de Front-end. </b>
-  </li>
-  <br/>
-  <li>
-    <b>Dia 12/10/2022 - Começo do projeto na prática(progamando), criando os elementos primordiais de um jogo, como imagens, personagens, mapas, entre outros elementos essenciais.
-    </b>
-      <ul>
-        <li>Definição do tamanho da tela(Overworld.js e Init.js)</li>
-        <li>Adicionando GameObjects</li>
-        <li>Configuração do OverworldMaps</li>
-      </ul>
-  </li>
-  <br></br>
-    <li>
-    <b>Dia 13/10/2022 - Configurando mecanismos essenciais de um jogo, como movimentações, animações, colisões, entre outros, como câmera.</b>
-      <ul>
-        <li>Movimentação baseada no Grid.</li>
-        <li>Animações do Personagem.</li>
-        <li>Câmera</li>
-        <li>Paredes e Colisões.
-          <h4>OBS: O Membro Rafael Gomes fez adaptações individuais dessa parte do tutorial afim de estar de acordo com nossas ideias para o jogo.</h4>
-        </li>
-      </ul> 
-  </li>
-    <li>
-    <b>Dia 20/10/2022 - Extensão de Comportamentos e Cutscenes(Vídeo 8)</b>
-    </li>
-    <br/>
-  <li>
-   <b>Dia 22/10/2022 - Extensão de Comportamento e Cutscenes - Parte 2(Vídeo 9)</b>
-  </li>
-</ul>
-  
-</ol>
-
->>>>>>> 50d7ece14d31318280e8191261d24384ad871196
-
 <h2>Acompanhe o projeto:</h2>
-[Trello](https://trello.com/b/5pph1wQT/pizza-legends-tutorial)
+<a href="https://trello.com/b/5pph1wQT/pizza-legends-tutorial">Trello</a>
 
 ### Tecnologias utilizadas
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-<<<<<<< HEAD
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-=======
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-
-
->>>>>>> 50d7ece14d31318280e8191261d24384ad871196
