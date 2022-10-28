@@ -23,7 +23,6 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         <b>Dia 06/10/2022</b> - Reuniões para abstração, idealização, organização e plenajemento do projeto. Ficando definido assim que iríamos utilizar HTML, CSS e JS como tecnologias, e implementaríamos tudo através de métodos, funções, objetos, divs, imagens, textos, entre outras funcionalidades dessa tríade de Front-end.
       </p>
     </li>
-    <br/>
     <li>
       <p>
         <b>Dia 12/10/2022</b> - Começo do projeto na prática(progamando), criando os elementos primordiais de um jogo, como imagens, personagens, mapas, entre outros elementos essenciais.
@@ -34,7 +33,6 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         <li>Configuração do OverworldMaps</li>
       </ul>
     </li>
-    <br/>
     <li>
       <p>
         <b>Dia 13/10/2022</b> - Configurando mecanismos essenciais de um jogo, como movimentações, animações, colisões, entre outros, como câmera.
@@ -48,13 +46,11 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         </li>
       </ul> 
     </li>
-    <br/>
     <li>
       <p>
         <b>Dia 20/10/2022</b> - Comportamentos e Cutscenes, criação de loops de comportamentos de personagens e criação de cutscenes</p>
       </p>
     </li>
-    <br/>
     <li>
       <p>
         <b>Dia 22/10/2022</b> - Extensão de Comportamento e Cutscenes, criação de métodos que possibilitam conversar e método de mudança de sala.
