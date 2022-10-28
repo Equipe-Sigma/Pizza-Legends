@@ -83,8 +83,9 @@ class Overworld{
         }
         
         this.map.startCutscene([
-            { type: "battle" }
             /*
+            { type: "battle" }
+            
             { who: "npcA", type: "walk", direction: "left"},
             { who: "npcA", type: "stand", direction: "up", time: 200},
             {type: "textMessage", text: "HEY! YOU!"},
