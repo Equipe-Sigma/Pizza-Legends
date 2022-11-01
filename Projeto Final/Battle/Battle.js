@@ -10,11 +10,23 @@ class Battle {
           maxXp: 100,
           level: 1,
           status: null,
+          isPlayerControlled: true
+        }, this),
+        "player2": new Combatant({
+          ...Pizzas.s002,
+          team: "player",
+          hp: 30,
+          maxHp: 50,
+          xp: 75,
+          maxXp: 100,
+          level: 1,
+          status: null,
+          isPlayerControlled: true
         }, this),
         "enemy1": new Combatant({
           ...Pizzas.v001,
           team: "enemy",
-          hp: 20,
+          hp: 1,
           maxHp: 50,
           xp: 20,
           maxXp: 100,
@@ -34,6 +46,14 @@ class Battle {
         player: "player1",
         enemy: "enemy1",
       }
+      this.items = [
+        { actionId: "item_recoverStatus", instanceId: "p1", team: "player"},
+        { actionId: "item_recoverStatus", instanceId: "p2", team: "player"},
+        { actionId: "item_recoverStatus", instanceId: "p3", team: "enemy"},
+
+        { actionId: "item_recoverHp", instanceId: "p4", team: "player"},
+
+      ]
     }
   
     createElement() {

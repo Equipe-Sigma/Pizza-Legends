@@ -74,6 +74,16 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         <li>Criação de dois efeitos de status sendo eles Clumsy e Saucy, com seus respectivos efeitos e ataques que obtenção de efeitos de status.</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 01/11/2022</b> - Menu de ações
+      </p>
+      <ul>
+        <li>Criação do menu de ataques das pizzas</li>
+        <li>Criação do menu de items do inventário do jogador</li>
+        <li>Criação do menu de troca de pizzas</li>
+      </ul>
+    </li>
   </ol>
 
 <h2>Acompanhe o projeto:</h2>
