@@ -59,6 +59,10 @@ class BattleEvent {
     //Wait a little bit
     await utils.wait(600)
 
+    //Update Team components
+    this.battle.playerTeam.update();
+    this.battle.enemyTeam.update();
+
     //stop blinking
     target.pizzaElement.classList.remove("battle-damage-blink");
     resolve();
@@ -107,7 +111,35 @@ class BattleEvent {
     replacement.update();
     await utils.wait(400);
 
+    //Update Team components
+    this.battle.playerTeam.update();
+    this.battle.enemyTeam.update();
+
     resolve();
+  }
+
+  giveXp(resolve) {
+    let amount = this.event.xp;
+    const {combatant} = this.event;
+    const step = () => {
+      if (amount > 0) {
+        amount -= 1;
+        combatant.xp += 1;
+
+        //Check if we've hit level up point
+        if (combatant.xp === combatant.maxXp) {
+          combatant.xp = 0;
+          combatant.maxXp = 100;
+          combatant.level += 1;
+        }
+
+        combatant.update();
+        requestAnimationFrame(step);
+        return;
+      }
+      resolve();
+    }
+    requestAnimationFrame(step);
   }
 
   animation(resolve) {

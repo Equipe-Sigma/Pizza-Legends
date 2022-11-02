@@ -84,6 +84,16 @@ Então, precisará fazer suas primeiras pizzas, montar seu time e batalhar com o
         <li>Criação do menu de troca de pizzas</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 02/11/2022</b> - HUD do Time e Finalização do Sistema de Batalha
+      </p>
+      <ul>
+        <li>Criação da HUD do time do jogador e do inimigo durante a batalha, mostrando ambos os times e seus estados</li>
+        <li>Atualização da barra de Xp</li>
+        <li>Configuração padrão dos times do jogador e dos inimigos, para facilitar implementações futuras</li>
+      </ul>
+    </li>
   </ol>
 
 <h2>Acompanhe o projeto:</h2>

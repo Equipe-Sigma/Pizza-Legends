@@ -129,6 +129,7 @@ window.OverworldMaps = {
           talking: [
             {
               events: [
+                { type: "battle", enemyId: "beth" },
                 {type: "textMessage", text: "GET OUT OF HERE!", faceHero: "npcA"}
               ]
             }
