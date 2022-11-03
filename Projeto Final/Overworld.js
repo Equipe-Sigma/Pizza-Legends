@@ -35,17 +35,26 @@ class Overworld{
             //Draw Upper layer
             this.map.drawUpperImage(this.ctx, cameraPerson);
 
-            requestAnimationFrame(() => {
-            step();
-            })
+            if (!this.map.isPause) {
+                requestAnimationFrame(() => {
+                    step();
+                })
+            }
         }
         step ();
     }
 
     bindActionInput() {
         new KeyPressListener("Enter", () => {
-            //Is there a person here to talk to?
-            this.map.checkForActionCutscene()
+          //Is there a person here to talk to?
+          this.map.checkForActionCutscene()
+        })
+        new KeyPressListener("Escape", () => {
+            if (!this.map.isCutscenePlaying) {
+                this.map.startCutscene([
+                    { type: "pause" }
+                ])
+                }
         })
     }
 
@@ -66,6 +75,9 @@ class Overworld{
     init() {
         this.startMap(window.OverworldMaps.DemoRoom);
 
+        this.hud = new Hud();
+        this.hud.init(document.querySelector(".game-container"));
+
         this.bindActionInput();
         this.bindHeroPositionCheck();
 
@@ -73,14 +85,6 @@ class Overworld{
         this.directionInput.init();
 
         this.startGameLoop();
-
-        if (this.isCutscenePlaying === false){
-            console.log("false")
-        } else if (this.isCutscenePlaying === true){
-            console.log("true")
-        } else {
-            console.log("Não definido")
-        }
         
         this.map.startCutscene([
             /*
