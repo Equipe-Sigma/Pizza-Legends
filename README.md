@@ -98,6 +98,16 @@ emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todo
         <li>Configuração padrão dos times do jogador e dos inimigos, para facilitar implementações futuras</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 03/11/2022</b> - HUD no Overworld, Menu de Pause e Progressão da História
+      </p>
+      <ul>
+        <li>Criação da HUD no time aparecendo no Overworld</li>
+        <li>Criação do menu de pause, onde pausa o jogo e possibilita a troca de ordem do time do jogador</li>
+        <li>Criação do método de condição para que eventos ocorram</li>
+      </ul>
+    </li>
   </ol>
 
 <h2>Acompanhe o projeto:</h2>
