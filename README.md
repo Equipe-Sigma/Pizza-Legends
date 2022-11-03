@@ -12,7 +12,7 @@ Pizza Legends é um jogo com elementos de RPG, muito semelhante aos jogos da sé
 
 No jogo você é um aprendiz de pizzaiolo em busca de se tornar o maior de todos os tempos, porém você ainda não possui nenhuma experiência na cozinha, e para piorar, acabou de ser demitido de seu trabalho.
 
-Esse é o fato que dá início a história do jogo, após ser demitido acaba ficando desmotivado, porém ele se lembrea de seu grande sonho, ser o maior pizzaiolo de todos os tempos, mas para isso ele precisa ganhar experiência. No mercado da culinária com vários chefs diferentes você precisará reunir seus time de pizzas e derrotá-los e subir seus níveis na cozinha.
+Esse é o fato que dá início a história do jogo, após ser demitido acaba ficando desmotivado, porém ele se lembra de seu grande sonho, ser o maior pizzaiolo de todos os tempos, mas para isso ele precisa ganhar experiência. No mercado da culinária com vários chefs diferentes você precisará reunir seus time de pizzas e derrotá-los e subir seus níveis na cozinha.
 
 Esse jogo, apesar de não ter uma história muito diferente das outras, consegue ser bem interessante. Isso que contamos é só um pouco do Pizza Legends, ao jogar, você conhecerá pessoas de diversos tipos e assim tendo várias experiências divertidas. Lhe aguardamos ansiosamente nas cozinhas de altas temperaturas e
 emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todos os tempos?
