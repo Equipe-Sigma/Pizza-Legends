@@ -98,6 +98,15 @@ emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todo
         <li>Configuração padrão dos times do jogador e dos inimigos, para facilitar implementações futuras</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 08/11/2022</b> - Fabricação de Pizzas e Save e Load do Jogo
+      </p>
+      <ul>
+        <li>Criação de pizzas por meio da bancada de pizzas</li>
+        <li>Salvar o jogo por meio do menu de pause e carregamento do último save do jogo</li>
+      </ul>
+    </li>
   </ol>
 
 <h2>Acompanhe o projeto:</h2>

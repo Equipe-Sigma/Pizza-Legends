@@ -31,6 +31,14 @@ window.PizzaTypes = {
       icon: "/images/icons/veggie.png",
       actions: [ "c001", "d001", "s001" ],
     },
+    "v001": {
+      name: "Green Forest",
+      description: "Pizza desc here",
+      type: PizzaTypes.veggie,
+      src: "/images/characters/pizzas/v001.png",
+      icon: "/images/icons/veggie.png",
+      actions: [ "c001", "d001", "s001" ],
+    },
     "f001": {
       name: "Portobello Express",
       description: "Pizza desc here",
