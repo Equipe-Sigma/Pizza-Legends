@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Pizza Legends</title>
+
+    <!-- Overworld styles -->
     <link href="/styles/global.css" type="text/css" rel="stylesheet">
     <link href="/styles/TextMessage.css" type="text/css" rel="stylesheet">
     <link href="/styles/SceneTransition.css" type="text/css" rel="stylesheet">
     <link href="/styles/KeyboardMenu.css" type="text/css" rel="stylesheet">
     <link href="/styles/Hud.css" type="text/css" rel="stylesheet">
-
-    <!--Battle CSS-->
+    <link href="/styles/TitleScreen.css" type="text/css" rel="stylesheet">
+    <!-- Battle css -->
     <link href="/styles/Battle.css" type="text/css" rel="stylesheet">
     <link href="/styles/Combatant.css" type="text/css" rel="stylesheet">
     <link href="/styles/SubmissionMenu.css" type="text/css" rel="stylesheet">
     <link href="/styles/Team.css" type="text/css" rel="stylesheet">
     <link href="/styles/Menus.css" type="text/css" rel="stylesheet">
-    
-
-</head>
-<body>
+  </head>
+  <body>
     <div class="game-container">
-        <canvas class="game-canvas" width="352" height="198"></canvas>
+      <canvas class="game-canvas" width="352" height="198"></canvas>
     </div>
+     <p class="how-to-play">Use Arrow Keys to move. Enter to prompt/talk.</p>
 
-    <!--Content-->
+    <!-- Content -->
     <script src="/Content/pizzas.js"></script>
     <script src="/Content/actions.js"></script>
     <script src="/Content/enemies.js"></script>
 
-    <!--State-->
+    <!-- State -->
     <script src="/State/PlayerState.js"></script>
 
-    <!--Scripts-->
+    <!-- Scripts -->
     <script src="/utils.js"></script>
     <script src="/DirectionInput.js"></script>
     <script src="/Overworld.js"></script>
@@ -52,8 +50,9 @@
     <script src="/PauseMenu.js"></script>
     <script src="/CraftingMenu.js"></script>
     <script src="/Progress.js"></script>
+    <script src="/TitleScreen.js"></script>
 
-    <!--Battle-->
+    <!-- Battle -->
     <script src="/Battle/Battle.js"></script>
     <script src="/Battle/Combatant.js"></script>
     <script src="/Battle/Team.js"></script>
@@ -65,5 +64,5 @@
 
     <script src="/init.js"></script>
 
-</body>
+  </body>
 </html>

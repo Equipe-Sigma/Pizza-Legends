@@ -117,6 +117,15 @@ emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todo
         <li>Salvar o jogo por meio do menu de pause e carregamento do último save do jogo</li>
       </ul>
     </li>
+    <li>
+      <p>
+        <b>Dia 10/11/2022</b> - Tela Inicial e Finalização do Tutorial
+      </p>
+      <ul>
+        <li>Criação da tela inicial do jogo</li>
+        <li>Correção de problemas e pequenas implementações</li>
+      </ul>
+    </li>
   </ol>
 
 <h2>Acompanhe o projeto:</h2>

@@ -27,9 +27,11 @@ class KeyboardMenu {
         const chosenOption = this.options[ Number(button.dataset.button) ];
         chosenOption.handler();
       })
+
       button.addEventListener("mouseenter", () => {
         button.focus();
       })
+
       button.addEventListener("focus", () => {
         this.prevFocus = button;
         this.descriptionElementText.innerText = button.dataset.description;

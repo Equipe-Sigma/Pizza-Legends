@@ -30,6 +30,13 @@ class PauseMenu {
           }
         },
         {
+          label: "Language",
+          description: "Change language game",
+          handler: () => {
+            this.keyboardMenu.setOptions( this.getOptions("") )
+          }
+        },
+        {
           label: "Close",
           description: "Close the pause menu",
           handler: () => {
@@ -74,7 +81,7 @@ class PauseMenu {
       }
     ];
   }
-
+  
   createElement() {
     this.element = document.createElement("div");
     this.element.classList.add("PauseMenu");
@@ -90,6 +97,8 @@ class PauseMenu {
     this.element.remove();
     this.onComplete();
   }
+
+
 
   async init(container) {
     this.createElement();
