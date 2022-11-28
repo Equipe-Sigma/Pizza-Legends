@@ -22,23 +22,16 @@ class PauseMenu {
       return [
         ...lineupPizzas,
         {
-          label: "Save",
-          description: "Save your progress",
+          label: "Salvar",
+          description: "Salve seu progresso",
           handler: () => {
             this.progress.save();
             this.close();
           }
         },
         {
-          label: "Language",
-          description: "Change language game",
-          handler: () => {
-            this.keyboardMenu.setOptions( this.getOptions("") )
-          }
-        },
-        {
-          label: "Close",
-          description: "Close the pause menu",
+          label: "Fechar",
+          description: "Fechar o menu de pause",
           handler: () => {
             this.close();
           }
@@ -53,7 +46,7 @@ class PauseMenu {
       const {pizzaId} = playerState.pizzas[id];
       const base = Pizzas[pizzaId];
       return {
-        label: `Swap for ${base.name}`,
+        label: `Trocar para ${base.name}`,
         description: base.description,
         handler: () => {
           playerState.swapLineup(pageKey, id);
@@ -65,16 +58,16 @@ class PauseMenu {
     return [
       ...unequipped,
       {
-        label: "Move to front",
-        description: "Move this pizza to the front of the list",
+        label: "Mover para frente",
+        description: "Mova esta pizza para frente do seu time",
         handler: () => {
           playerState.moveToFront(pageKey);
           this.keyboardMenu.setOptions( this.getOptions("root") );
         }
       },
       {
-        label: "Back",
-        description: "Back to root menu",
+        label: "Voltar",
+        description: "Voltar ao menu principal",
         handler: () => {
           this.keyboardMenu.setOptions( this.getOptions("root") );
         }
@@ -87,7 +80,7 @@ class PauseMenu {
     this.element.classList.add("PauseMenu");
     this.element.classList.add("overlayMenu");
     this.element.innerHTML = (`
-      <h2>Pause Menu</h2>
+      <h2>Menu de Pause</h2>
     `)
   }
 

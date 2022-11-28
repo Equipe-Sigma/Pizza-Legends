@@ -26,8 +26,8 @@ class SubmissionMenu {
   getPages() {
 
     const backOption = {
-      label: "Go Back",
-      description: "Return to previous page",
+      label: "Voltar",
+      description: "Retorne a página anterior",
       handler: () => {
         this.keyboardMenu.setOptions(this.getPages().root)
       }
@@ -36,8 +36,8 @@ class SubmissionMenu {
     return {
       root: [
         {
-          label: "Attack",
-          description: "Choose an attack",
+          label: "Ataque",
+          description: "Escolha um ataque",
           handler: () => {
             //Do something when chosen...
             this.keyboardMenu.setOptions( this.getPages().attacks )
@@ -45,15 +45,15 @@ class SubmissionMenu {
         },
         {
           label: "Items",
-          description: "Choose an item",
+          description: "Escolha um item",
           handler: () => {
             //Go to items page...
             this.keyboardMenu.setOptions( this.getPages().items )
           }
         },
         {
-          label: "Swap",
-          description: "Change to another pizza",
+          label: "Trocar",
+          description: "Troque para outra pizza",
           handler: () => { 
             //See pizza options
             this.keyboardMenu.setOptions( this.getPages().replacements )

@@ -9,7 +9,7 @@ window.PizzaTypes = {
 window.Pizzas = {
   "s001": {
     name: "Slice Samurai",
-    description: "Pizza desc here",
+    description: "Descrição da pizza",
     type: PizzaTypes.spicy,
     src: "/images/characters/pizzas/s001.png",
     icon: "/images/icons/spicy.png",
@@ -17,7 +17,7 @@ window.Pizzas = {
   },
   "s002": {
     name: "Bacon Brigade",
-    description: "A salty warrior who fears nothing",
+    description: "Descrição da pizza",
     type: PizzaTypes.spicy,
     src: "/images/characters/pizzas/s002.png",
     icon: "/images/icons/spicy.png",
@@ -25,7 +25,7 @@ window.Pizzas = {
   },
   "v001": {
     name: "Call Me Kale",
-    description: "Pizza desc here",
+    description: "Descrição da pizza",
     type: PizzaTypes.veggie,
     src: "/images/characters/pizzas/v001.png",
     icon: "/images/icons/veggie.png",
@@ -33,7 +33,7 @@ window.Pizzas = {
   },
   "v002": {
     name: "Archie Artichoke",
-    description: "Pizza desc here",
+    description: "Descrição da pizza",
     type: PizzaTypes.veggie,
     src: "/images/characters/pizzas/v001.png",
     icon: "/images/icons/veggie.png",
@@ -41,7 +41,7 @@ window.Pizzas = {
   },
   "f001": {
     name: "Portobello Express",
-    description: "Pizza desc here",
+    description: "Descrição da pizza",
     type: PizzaTypes.fungi,
     src: "/images/characters/pizzas/f001.png",
     icon: "/images/icons/fungi.png",
@@ -49,7 +49,7 @@ window.Pizzas = {
   },
   "f002": {
     name: "Say Shitake",
-    description: "Pizza desc here",
+    description: "Descrição da pizza",
     type: PizzaTypes.fungi,
     src: "/images/characters/pizzas/f001.png",
     icon: "/images/icons/fungi.png",

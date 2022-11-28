@@ -27,7 +27,7 @@ class TurnCycle {
       })
       await this.onNewEvent({
         type: "textMessage",
-        text: `Go get 'em, ${submission.replacement.name}!`
+        text: `Vá pegá-los, ${submission.replacement.name}!`
       })
       this.nextTurn();
       return;
@@ -59,7 +59,7 @@ class TurnCycle {
     const targetDead = submission.target.hp <= 0;
     if (targetDead) {
       await this.onNewEvent({ 
-        type: "textMessage", text: `${submission.target.name} is ruined!`
+        type: "textMessage", text: `${submission.target.name} está derrotado!`
       })
 
       if (submission.target.team === "enemy") {
@@ -69,7 +69,7 @@ class TurnCycle {
 
         await this.onNewEvent({
           type: "textMessage",
-          text: `Gained ${xp} XP!`
+          text: `Ganhou ${xp} XP!`
         })
         await this.onNewEvent({
           type: "giveXp",
@@ -84,7 +84,7 @@ class TurnCycle {
     if (winner) {
       await this.onNewEvent({
         type: "textMessage",
-        text: "Winner!"
+        text: "Vencedor!"
       })
       this.onWinner(winner);
       return;
@@ -102,7 +102,7 @@ class TurnCycle {
       })
       await this.onNewEvent({
         type: "textMessage",
-        text: `${replacement.name} appears!`
+        text: `${replacement.name} apareceu!`
       })
     }
 
@@ -150,7 +150,7 @@ class TurnCycle {
   async init() {
     await this.onNewEvent({
       type: "textMessage",
-      text: `${this.battle.enemy.name} wants to throw down!`
+      text: `${this.battle.enemy.name} quer atacar!`
     })
 
     //Start the first turn!

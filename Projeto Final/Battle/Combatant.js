@@ -89,7 +89,7 @@ class Combatant {
 
     if (this.status?.type === "clumsy" && utils.randomFromArray([true, false, false])) {
       return [
-        { type: "textMessage", text: `${this.name} flops over!` },
+        { type: "textMessage", text: `${this.name} cai!` },
       ]
     }
 
@@ -99,7 +99,7 @@ class Combatant {
   getPostEvents() {
     if (this.status?.type === "saucy") {
       return [
-        { type: "textMessage", text: "Feelin' saucy!" },
+        { type: "textMessage", text: "Se sentindo picante!" },
         { type: "stateChange", recover: 5, onCaster: true }
       ]
     } 
@@ -115,7 +115,7 @@ class Combatant {
         })
         return {
           type: "textMessage",
-          text: "Status expired!"
+          text: "Status acabado!"
         }
       }
     }
