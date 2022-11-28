@@ -130,7 +130,9 @@ emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todo
       <p>
         <b>Dia 28/11/2022</b> - Término do Projeto
       </p>
-      Tradução do jogo para português
+      <ul>
+        <li>Tradução do jogo para português</li>
+      </ul>
     </li>
   </ol>
 
