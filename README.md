@@ -137,7 +137,7 @@ emoções. Será que você conseguirá se tornar o maior Chefe Pizzaiolo de todo
   </ol>
 
   <h2>Conclusão</h2>
-  <p>Apesar dos diversos problemas que tivemos antes deste projeto existir, conseguimos prosseguir e terminar o projeto que tinhamos em mente. Porém, nesta reta final, devido diversos problemas com a equipe, optamos por dar um hiato no andamento do projeto e entregar ele neste estado atual. A maioria dos sistemas do jogo é feito, é possível jogar o jogo e se divertir um pouco. Lamentamos muito caso você não esteja contente com o estado atual do jogo, mas devido aos problemas ditos anteriormente é isso.</p>
+  <p>Apesar dos diversos problemas que tivemos antes deste projeto existir, conseguimos prosseguir e terminar o projeto que tinhamos em mente. Porém, nesta reta final, devido diversos problemas com a equipe, optamos por dar um hiato no andamento do projeto e entregar ele neste estado atual. A maioria dos sistemas do jogo é feito, é possível jogar o jogo e se divertir um pouco. Lamentamos muito caso você não esteja contente com o estado atual do jogo.</p>
 
 <h2>Acompanhe o projeto:</h2>
 <a href="https://trello.com/b/5pph1wQT/pizza-legends-tutorial">Trello</a>
