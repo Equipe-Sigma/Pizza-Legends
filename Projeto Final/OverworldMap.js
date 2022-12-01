@@ -787,7 +787,7 @@ window.OverworldMaps = {
         talking: [
           {
             events: [
-              { type: "textMessage", text: "Este lugar é famoso por pizzas vegetarianas!", faceHero: "streetNorthNpcA" },
+              { type: "textMessage", text: "Este lugar é famoso por suas pizzas vegetarianas!", faceHero: "streetNorthNpcA" },
             ]
           }
         ]

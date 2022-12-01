@@ -9,8 +9,8 @@ window.Actions = {
       ]
     },
     saucyStatus: {
-      name: "Tomato Squeeze",
-      description: "Applies the Saucy status",
+      name: "Espremedor de Tomates",
+      description: "Aplica um tempero picante.",
       targetType: "friendly",
       success: [
         { type: "textMessage", text: "{CASTER} usa {ACTION}!"},
