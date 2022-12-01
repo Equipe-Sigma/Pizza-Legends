@@ -1,4 +1,4 @@
-<h1>Pizza-Legends</h1>
+<h1>Pizza Legends</h1>
 
 <img src="https://user-images.githubusercontent.com/112625422/194766013-62fc742c-096b-499d-901e-045cfa996b78.png">
 
